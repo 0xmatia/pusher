@@ -10,3 +10,6 @@ termios = "0.3.3"
 libc = "0.2.125"
 thiserror = "1.0.31"
 anyhow = "1.0.57"
+mio = {version = "0.8.3", features = [ "os-ext" ] }
+mio-serial = "5.0.2"
+serialport = "4.2.0"
